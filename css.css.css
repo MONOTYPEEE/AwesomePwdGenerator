@@ -38,6 +38,16 @@ body{
     box-shadow: rgba(11, 223, 64, 0.2) 0px 0px 22px 0px;
 }
 
+h1{
+    margin: 0.25rem;
+}
+
+h4{
+    margin: 0.25rem;
+    margin-top: 1rem;
+    opacity: 0.5;
+}
+
 #pwdDisplay{
     color: var(--main-color);
     font-weight: bold;
@@ -56,11 +66,14 @@ body{
 
 #genButton{
     outline: 0;
+    margin-top: 1rem;
     padding: 0.25rem 0.5rem;
+    border-radius: 0.5em;
 }
 
 #genButton:hover{
     border: 0;
+    border-radius: 1em;
     background-color: #eee;
-
+    transition: 0.5s;
 }
